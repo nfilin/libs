@@ -1,8 +1,10 @@
 <?php
 
-namespace zeus;
+namespace Nfilin\Libs;
 
 use ArrayIterator;
+
+
 /**
   * Wrapper class for $_FILE records
   * @property string $name File name

@@ -1,8 +1,9 @@
 <?php
 
-namespace zeus;
+namespace Nfilin\Libs;
 
-use yii\base\InvalidParamException as Exception;
+use Exception;
+
 
 /**
  */

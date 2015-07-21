@@ -2,6 +2,7 @@
     "name": "nfilin/libs",
     "homepage": "https://github.com/nfilin/libs",
     "type": "library",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Stanislav Markovskyi",

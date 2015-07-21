@@ -1,6 +1,7 @@
 <?php
 
-namespace zeus;
+namespace Nfilin\Libs;
+
 
 /**
  * Object manipulation tools

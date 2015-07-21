@@ -1,0 +1,19 @@
+{
+    "name": "nfilin/libs",
+    "homepage": "https://github.com/nfilin/libs",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Stanislav Markovskyi",
+            "email": "samarkowski@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-0": { "Nfilin\\Libs": "src/" }
+    }
+}

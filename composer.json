@@ -2,7 +2,6 @@
     "name": "nfilin/libs",
     "homepage": "https://github.com/nfilin/libs",
     "type": "library",
-    "version": "1.0.0",
     "license": "MIT",
     "authors": [
         {

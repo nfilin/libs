@@ -7,7 +7,7 @@ use Exception;
  * Class InputData
  * @package Nfilin\Libs
  */
-class InputData
+class InputData extends BaseObject
 {
     /**
      * @var object Data container

@@ -7,7 +7,7 @@ namespace Nfilin\Libs;
  * @abstract
  * @package Nfilin\Libs
  */
-abstract class Pager
+abstract class Pager extends BaseObject
 {
     /**
      * @var integer Query limit

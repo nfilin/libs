@@ -17,7 +17,7 @@ abstract class BaseObject
     /**
      * @return string
      */
-    public static function getClass(){
+    public static function className(){
         return get_called_class();
     }
 }

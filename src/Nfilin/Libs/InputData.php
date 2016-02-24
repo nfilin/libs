@@ -27,7 +27,7 @@ class InputData extends BaseObject
     /**
      * Creates new [[InputData]] instance
      * @param array|object|null $data
-     * @return InputData
+     * @return static
      */
     static function create($data = [])
     {
@@ -76,7 +76,7 @@ class InputData extends BaseObject
     /**
      * Adds data to storage
      * @param array|object|null $data
-     * @return InputData
+     * @return $this
      */
     function mergeWith($data = [])
     {

@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: stas
- * Date: 22.01.16
- * Time: 14:40
- */
 
 namespace Nfilin\Libs;
 

@@ -36,9 +36,8 @@ abstract class Pager extends BaseObject
     abstract function __construct($query = null);
 
     /**
-     * Creates new instance of [[Pager]]
      * @param mixed $query
-     * @return Pager
+     * @return static
      */
     static function create($query = null)
     {
@@ -46,9 +45,8 @@ abstract class Pager extends BaseObject
     }
 
     /**
-     * Sets limit
-     * @param integer $limit
-     * @return Pager
+     * @param int $limit
+     * @return $this
      */
     function limit($limit)
     {
@@ -57,9 +55,8 @@ abstract class Pager extends BaseObject
     }
 
     /**
-     * Sets offset
-     * @param integer $offset
-     * @return Pager
+     * @param int $offset
+     * @return $this
      */
     function offset($offset)
     {
@@ -69,7 +66,7 @@ abstract class Pager extends BaseObject
 
     /**
      * Builds response from query
-     * @return Pager
+     * @return $this
      */
     abstract function build();
 }
